@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    color: white;
+    background-color: #9e3005;
+    font-weight: normal;
+}
+.linktree{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+div img{ 
+    width: 200px;
+    border-radius: 100px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+nav{
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    margin: 20px auto;
+    border: solid 3px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color:#9E3005;
+}
+nav:hover{
+    background-color: white;
+}
